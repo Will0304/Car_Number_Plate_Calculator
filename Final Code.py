@@ -1,6 +1,7 @@
 import pandas as pd
 
 def calculate_the_number_plate():
+	
 	try:
 		vehicle_ID = int(input('Type in the vehicle ID number. It should be a whole number between 0 and 17558423 : '))
 
@@ -26,9 +27,5 @@ def calculate_the_number_plate():
 		#if the inut number is negative or contains non-digit characters or is bigger than 17558423 (the maximum value), a Value Error is returned
 		return 'Invalid Input'
 
-# some test cases:
-test.assert_equals(calculate_the_number_plate(651),'aaa652')
-test.assert_equals(calculate_the_number_plate(867819),'khb688')
-test.assert_equals(calculate_the_number_plate(65192),'nca258')
 
 
