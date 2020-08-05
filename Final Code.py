@@ -1,7 +1,6 @@
 import pandas as pd
 
 def calculate_the_number_plate():
-	
 	try:
 		vehicle_ID = int(input('Type in the vehicle ID number. It should be a whole number between 0 and 17558423 : '))
 
