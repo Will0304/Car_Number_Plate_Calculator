@@ -1,4 +1,5 @@
 import pandas as pd
+
 def calculate_the_number_plate():
 	try:
 		customer_ID = int(input('Type in the customer ID number. It should be a whole number between 0 and 17558423 : '))
@@ -18,6 +19,7 @@ def calculate_the_number_plate():
 		return pd.DataFrame({'ID':[customer_ID],'NP':[result]})
 	
 	except ValueError:
+		
 		return 'Invalid Input'
 
 # some test cases:
